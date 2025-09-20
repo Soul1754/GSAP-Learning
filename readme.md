@@ -1,12 +1,65 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Soul Tavern 🍸
 
-Currently, two official plugins are available:
+A modern, animated cocktail menu web app built with React, Vite, GSAP, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Animated Cocktail Menu:** Scroll-triggered GSAP animations for leaves, cocktails, and text.
+- **Parallax Effects:** Leaves float and move as you scroll between sections.
+- **Responsive Design:** Mobile-friendly layouts and smooth transitions.
+- **Custom Fonts & Styling:** Elegant typography and visual effects.
+- **Accessible Navigation:** Keyboard and screen reader friendly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React** (with hooks)
+- **Vite** (fast dev/build)
+- **GSAP** (scroll animations, parallax)
+- **Tailwind CSS** (utility-first styling)
+- **Custom Fonts** (Modern Negra, DM Serif Text, Mona Sans)
+
+## Getting Started
+
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+
+2. **Start the development server:**
+	```bash
+	npm run dev
+	```
+
+3. **Open your browser:**
+	```
+	http://localhost:5173/
+	```
+
+## Project Structure
+
+```
+src/
+  components/      # React components (Menu, Art, Contact, etc.)
+  assets/          # Images, fonts, videos
+  index.css        # Tailwind and custom styles
+  constants/       # Data for cocktails, navigation, etc.
+public/            # Static files
+```
+
+## Custom Animations
+
+- **Menu Section:** Leaves slide in and float upward as you scroll.
+- **Art Section:** Masked images and text fade/scale with scroll.
+- **Contact Section:** Parallax leaves and drink images.
+
+## Credits
+
+- Cocktail images: Unsplash, Pexels, or your own assets
+- Fonts: Google Fonts, custom TTF
+- Animations and project inspiration: [JavaScript Mastery](https://www.youtube.com/@JavaScriptMastery)
+- This website was built by following the course: [Build a Modern Animated Portfolio Website with React & GSAP](https://www.youtube.com/watch?v=AW1yfBKRMKc&ab_channel=JavaScriptMastery)
+
+## License
+
+MIT
