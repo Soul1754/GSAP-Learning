@@ -7,17 +7,19 @@ import About from './components/About';
 import Art from './components/Art';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
+import { Analytics } from "@vercel/analytics/react";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
     return (
-        <main>
-            <Navbar />
-            <Hero />
-            <Cocktails />
-            <About />
-            <Art />
-            <Menu />
-            <Contact />
+      <main>
+        <Navbar />
+        <Hero />
+        <Cocktails />
+        <About />
+        <Art />
+        <Menu />
+        <Contact />
+        <Analytics />
       </main>
     );
 };
