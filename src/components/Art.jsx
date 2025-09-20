@@ -1,5 +1,4 @@
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import { featureLists, goodLists } from "../../constants/index.js";
 import { useMediaQuery } from "react-responsive";
