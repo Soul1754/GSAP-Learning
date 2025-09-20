@@ -8,6 +8,7 @@ import Art from './components/Art';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
     return (
@@ -19,7 +20,8 @@ const App = () => {
         <Art />
         <Menu />
         <Contact />
-        <Analytics />
+            <Analytics />
+            <SpeedInsights />
       </main>
     );
 };
